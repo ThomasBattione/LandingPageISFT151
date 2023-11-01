@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingpagcss.css">
+    <script src="lpjavas.js"></script>
+    <title>ISFT151 - Instituto Superior de Formación Técnica 151</title>
+</head>
+
+<body>
+        <header>
+            <a href= "." class = "logo">
+                <img src="logo.png" alt="ISFT151">
+          
+            </a>
+            <nav>
+                <a href="#start">Inicio</a>
+                <a href="#courses">Carreras</a>
+                <a href="#registration">Inscripción</a>
+            </nav>
+        </header>
+
+        <section id="welcome">
+            <p>Bienvenido al Instituto Superior de Formación Técnica 151. ¡Descubre nuestras carreras y comienza tu camino
+                hacia el éxito profesional!</p>
+        </section>
+        <h2>Tecnicaturas</h2>
+        <section id="image-nav">
+
+            <div class="image-container">
+                <a href="Turismo.pdf" target="_blank" download>
+                    <img src="imagen1.png" alt="Turismo">
+                    <p>Turismo</p>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="TecnicarutaSuperiorEnIndustriaTextilEIndumentaria.pdf" target="_blank" download>
+                    <img src="imagen2.png" alt="...">
+                    <p>Textil e Indumentaria</p>
+                </a>
+
+            </div>
+            <div class="image-container">
+                <a href="TecnicaturaSuperiorEnAnalisisDeSistema.pdf" target="_blank" download>
+                    <img src="imagen3.png" alt="...">
+                    <p>Analista en Sistemas</p>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="Logistica.pdf" target="_blank" download>
+                    <img src="imagen4.png" alt="...">
+                    <p>Logística</p>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="GestionAmbientalYSalud.pdf" target="_blank" download>
+                    <img src="imagen5.png" alt="...">
+                    <p>Gestión Ambiental y Salud</p>
+                </a>
+            </div>
+    <!-- Agrega más imágenes y enlaces según sea necesario -->
+        </section>
+
+        <section id="registration">
+            <h2>Inscripción</h2>
+            <p>Completa el formulario de inscripción para la carrera de tu elección:</p>
+            <form id="registration-form">
+                <select id="course-select" required>
+                    <option value="" disabled selected>Selecciona una Tecnicatura</option>
+                    <option value="carrera1">Turismo</option>
+                    <option value="carrera2">Textil e Indumentaria</option>
+                    <option value="carrera3">Analista en Sistemas</option>
+                    <option value="carrera4">Logística</option>
+                    <option value="carrera5">Gestión Ambiental y Salud</option>
+                    <!-- Agrega más opciones de carrera según sea necesario -->
+                </select>
+
+                <input type="text" id="name-input" placeholder="Nombre" required>
+                <input type="text" id="email-input" placeholder="Email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Company, Inc</p>
+
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Shop</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+      </footer>
+</body>
+
+</html>
