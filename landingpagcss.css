@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(168, 168, 168);
 }
 
 img{
-    width: 30%;
+    width: 50%;
     margin-right: 0px;
 }
 
@@ -67,7 +67,7 @@ nav a {
 }
 
 nav a:hover {
-    color: gray; /* Cambia el color al pasar el cursor sobre los enlaces */
+    color: rgb(222, 74, 74); /* Cambia el color al pasar el cursor sobre los enlaces */
 }
 
 
@@ -140,7 +140,7 @@ button:hover {
 
 /* Estilos para el botón de enviar */
 button[type="submit"] {
-    background-color: #0078d4;
+    background-color: #021422;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -161,7 +161,7 @@ h2{
 
 /* Estilos para la sección de bienvenida */
 #welcome {
-    background-color: #f5f5f5;
+    background-color: #100101;
     color: #666;
     text-align: center;
     padding: 40px;
